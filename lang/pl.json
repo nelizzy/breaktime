@@ -72,11 +72,12 @@
     "hotkey": {
       "label": "Czas przerwy, klawisz pauzy",
       "description": "Użyj tego przycisku, aby aktywować BreakTime",
-      "pausekey": "Klawisz pauzy"
+      "pausekey": "Klawisz pauzy",
+      "toggleaway": "Przełącz status Nieobecny"
     },
     "button": {
       "title": "Oddal się na chwilę",
-      "return":  "Powrót z przerwy"
+      "return": "Powrót z przerwy"
     }
   }
 }
