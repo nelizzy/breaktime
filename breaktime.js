@@ -70,7 +70,9 @@ export class BreakTime {
         });
         game.keybindings.register('breaktime', 'toggle-away', {
             name: 'BREAKTIME.hotkey.toggleaway',
-            editable: [],
+            editable: [
+                { key: 'KeyB', modifiers: [foundry.helpers.interaction.KeyboardManager.MODIFIER_KEYS?.SHIFT] },
+            ],
             onDown: () => {
                 let awayData = setting("away");
                 BreakTime.emit("adjustStatus", { away: !awayData.includes(game.user.id) });
@@ -459,3 +461,4 @@ Hooks.on("renderSettingsConfig", (app, html, data) => {
         return `<option value="${playlist.id}">${playlist.name}</option>`;
         }).join("")).val(setting("break-playlist"));
 });
+
