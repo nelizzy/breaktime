@@ -42,9 +42,9 @@
   "styles": [
     "breaktime.css"
   ],
-  "url": "https://github.com/ironmonk108/breaktime",
-  "download": "https://github.com/ironmonk108/breaktime/archive/13.03.zip",
-  "manifest": "https://github.com/ironmonk108/breaktime/releases/latest/download/module.json",
+  "url": "https://github.com/nelizzy/breaktime",
+  "download": "https://github.com/nelizzy/breaktime/archive/13.03.zip",
+  "manifest": "https://github.com/nelizzy/breaktime/releases/latest/download/module.json",
   "bugs": "https://github.com/ironmonk108/breaktime/issues",
   "id": "breaktime",
   "compatibility": {
@@ -58,3 +58,4 @@
     "allowBugReporter": true
   }
 }
+
